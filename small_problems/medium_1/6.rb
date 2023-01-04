@@ -1,4 +1,3 @@
-
 def minilang(command_string)
   command_arr = command_string.split
   register = 0
@@ -25,8 +24,8 @@ def minilang(command_string)
     when "PRINT"
       puts register
     end
-  #   puts "command: #{command}"
-  #   display_current(register, stack)
+  # puts "command: #{command}"
+  # display_current(register, stack)
   end
 end
 
